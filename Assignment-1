@@ -5,8 +5,10 @@
 <style>
    #div1
      {
-      text-size:20px;
-      color:blue;
+     border-bottom:2px solid green;
+     width:400px;
+     border-right:2px solid orange;
+     text-align:center;
 		}
 	.container
 	{
@@ -64,9 +66,12 @@
 				<li>1906022</li>
 			</ul>
 		</nav>
-		<h1 style="text-align: center;" class="c1"><u>Sceneries</u></h1>
+		<h1 style="text-align: center;" class="c1"><u>Wild Animals</u></h1>
 	</header>	
 	
+<div id="div1">
+<h2>Assignment</h2>
+</div>
 
 
 <div class ="container">
