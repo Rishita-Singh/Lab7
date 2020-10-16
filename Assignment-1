@@ -29,6 +29,8 @@
 	img:hover
 	{
 		transform: rotate(10deg);
+		width:100px;
+		height:75px;
 	}
 	body
 	{
