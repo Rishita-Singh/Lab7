@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>CSS Responsive</title>
+<style>
+   #div1
+     {
+      text-size:20px;
+      color:blue;
+		}
+	.container
+	{
+		display:flex;
+		flex-wrap: wrap;
+		flex-direction:row;
+		justify-content: center;
+	}	
+	img
+	{
+		width: 300px;
+		
+		height :200px;
+		margin: 20px;
+		transition: all 1s;
+		box-shadow: 4px 4px 4px #883885
+	}
+	img:hover
+	{
+		transform: rotate(10deg);
+	}
+	body
+	{
+		background-color:#ffff80;
+	}
+       .c1{
+        color:blue;
+        text-size:25px;
+         }
+	ul{
+	margin:0;
+        padding:0;
+	list-style-type:none;	
+	}
+	li{
+	display:inline-block;
+	margin:20px;
+	color:white;
+	text-size:25px;	
+	}
+	
+	header{
+	background:black;
+		padding:10px 20px;
+	}
+	</style>
+	
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>Assignment-5 </li>
+				<li>Rishita Singh</li>
+				<li>1906022</li>
+			</ul>
+		</nav>
+		<h1 style="text-align: center;" class="c1"><u>Sceneries</u></h1>
+	</header>	
+	
+
+
+<div class ="container">
+	<img src="img1.jpg"/>
+	<img src ="img2.jpg"/>
+	<img src ="img3.jpg"/>
+	<img src ="img4.jpg"/>
+	<img src ="img5.jpg"/>
+	<img src ="img6.jpg"/>
+	<img src ="img7.jpg"/>
+	<img src ="img8.jpg"/>
+        <img src="img9.jpg"/>
+</div>
+</body>
+</html>
